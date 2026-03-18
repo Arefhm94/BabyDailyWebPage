@@ -2,6 +2,7 @@
   import { Button } from '$lib/components/ui/button';
   import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '$lib/components/ui/card';
   import { Baby, Activity, Code, Globe, Shield, Zap, ArrowRight, ExternalLink } from 'lucide-svelte';
+  import { base } from '$app/paths';
 </script>
 
 <div class="flex flex-col min-h-screen">
@@ -47,7 +48,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <!-- BabyDaily Card -->
-          <a href="/babydaily" class="group block relative overflow-hidden rounded-3xl bg-slate-100 dark:bg-slate-800 border transition-all hover:shadow-2xl hover:-translate-y-2">
+          <a href="{base}/babydaily" class="group block relative overflow-hidden rounded-3xl bg-slate-100 dark:bg-slate-800 border transition-all hover:shadow-2xl hover:-translate-y-2">
             <div class="aspect-video w-full bg-primary/10 flex items-center justify-center p-12 overflow-hidden">
               <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl shadow-xl transition-transform group-hover:scale-110 duration-500">
                 <Baby class="h-16 w-16 text-primary" />

@@ -10,6 +10,9 @@ const config = {
 			// fallback: '404.html' if you want a SPA-like behavior on GH Pages
 			fallback: '404.html'
 		}),
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/TapLog' : ''
+		},
 		prerender: {
 			handleMissingId: 'warn'
 		}

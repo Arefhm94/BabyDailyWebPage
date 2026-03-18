@@ -1,5 +1,6 @@
 <script lang="ts">
   import { Baby, Activity, Mail, Twitter, Github } from "lucide-svelte";
+  import { base } from "$app/paths";
 </script>
 
 <footer class="border-t bg-slate-50 dark:bg-slate-950">
@@ -29,9 +30,9 @@
       <div>
         <h3 class="font-bold mb-4 text-sm uppercase tracking-wider">Product</h3>
         <ul class="space-y-3 text-sm">
-          <li><a href="#features" class="text-muted-foreground hover:text-primary transition-colors">Features</a></li>
-          <li><a href="#faq" class="text-muted-foreground hover:text-primary transition-colors">FAQ</a></li>
-          <li><a href="/babydaily/privacy" class="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a></li>
+          <li><a href="{base}/#features" class="text-muted-foreground hover:text-primary transition-colors">Features</a></li>
+          <li><a href="{base}/#faq" class="text-muted-foreground hover:text-primary transition-colors">FAQ</a></li>
+          <li><a href="{base}/babydaily/privacy" class="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a></li>
         </ul>
       </div>
       
@@ -52,9 +53,9 @@
         <span>&copy; 2026 OdesaHub. All rights reserved.</span>
       </div>
       <div class="flex space-x-6">
-        <a href="/babydaily/privacy" class="hover:text-primary transition-colors">Privacy</a>
-        <a href="#" class="hover:text-primary transition-colors">Terms</a>
-        <a href="#" class="hover:text-primary transition-colors">Cookies</a>
+        <a href="{base}/babydaily/privacy" class="hover:text-primary transition-colors">Privacy</a>
+        <a href="{base}/#" class="hover:text-primary transition-colors">Terms</a>
+        <a href="{base}/#" class="hover:text-primary transition-colors">Cookies</a>
       </div>
     </div>
   </div>
