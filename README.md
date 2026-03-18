@@ -1,16 +1,42 @@
-# BabyDaily
+# sv
 
-This is the official website for **BabyDaily**, a mobile application designed to help parents track their baby's daily activities.
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Features
-- Track feedings (breastfeeding, bottle, solids)
-- Log diaper changes
-- Monitor sleep patterns
-- Sync data across devices with Google or Apple sign-in
+## Creating a project
 
-## Links
-- [Privacy Policy](https://iref.github.io/privacy.html)
-- [Terms of Service](https://iref.github.io/terms.html)
+If you're seeing this, you've probably already done this step. Congrats!
 
-## Contact
-For support or inquiries, please contact [arefsn89@gmail.com](mailto:arefsn89@gmail.com).
+```sh
+# create a new project
+npx sv create my-app
+```
+
+To recreate this project with the same configuration:
+
+```sh
+# recreate this project
+npx sv@0.12.8 create --template minimal --types ts --no-install test-app
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```sh
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```sh
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.

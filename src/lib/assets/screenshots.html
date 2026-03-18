@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BabyDaily – App Screenshots</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap');
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: #f0ede8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 120px 40px 80px 40px;
+            gap: 64px;
+        }
+
+        .header {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #1a1a1a;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            font-size: 15px;
+            color: #888;
+        }
+
+        .row {
+            display: flex;
+            gap: 40px;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .phone-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .phone {
+            position: relative;
+            width: 240px;
+            height: 498px;
+            border-radius: 50px;
+            background: linear-gradient(160deg, #2c2c2e 0%, #1a1a1c 50%, #111113 100%);
+            box-shadow:
+                0 0 0 1px rgba(255, 255, 255, 0.1),
+                0 0 0 2.5px #050507,
+                0 0 0 4px rgba(255, 255, 255, 0.06),
+                0 30px 80px rgba(0, 0, 0, 0.45),
+                0 8px 24px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.12),
+                inset 0 -1px 0 rgba(255, 255, 255, 0.03);
+        }
+
+        .phone::before {
+            content: '';
+            position: absolute;
+            left: -4px;
+            top: 108px;
+            width: 3.5px;
+            height: 30px;
+            background: linear-gradient(180deg, #3a3a3c 0%, #222224 100%);
+            border-radius: 2px 0 0 2px;
+            box-shadow: 0 40px 0 #303032, 0 80px 0 #303032;
+        }
+
+        .phone::after {
+            content: '';
+            position: absolute;
+            right: -4px;
+            top: 138px;
+            width: 3.5px;
+            height: 56px;
+            background: linear-gradient(180deg, #3a3a3c 0%, #222224 100%);
+            border-radius: 0 2px 2px 0;
+        }
+
+        .screen {
+            position: absolute;
+            inset: 7px;
+            border-radius: 44px;
+            overflow: hidden;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .screen img {
+            width: calc(100% - 10px);
+            height: calc(100% - 10px);
+            object-fit: cover;
+            object-position: top;
+            display: block;
+            border-radius: 38px;
+        }
+
+        .dynamic-island {
+            position: absolute;
+            top: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 82px;
+            height: 26px;
+            background: #000;
+            border-radius: 20px;
+            z-index: 10;
+        }
+
+        .glare {
+            position: absolute;
+            inset: 7px;
+            border-radius: 44px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0%, transparent 45%);
+            pointer-events: none;
+            z-index: 20;
+        }
+
+        .label {
+            color: #999;
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>BabyDaily</h1>
+        <p>Actual App Screenshots</p>
+    </div>
+    <div class="row">
+        <!-- Screenshot 1: HomePageLight -->
+        <div class="phone-wrap">
+            <div class="phone">
+                <div class="screen"><img src="babydaily_ss/HomePageLight.png" alt="Home Page"></div>
+                <div class="dynamic-island"></div>
+                <div class="glare"></div>
+            </div>
+            <div class="label">Home Page</div>
+        </div>
+
+        <!-- Screenshot 2: InsightLight -->
+        <div class="phone-wrap">
+            <div class="phone">
+                <div class="screen"><img src="babydaily_ss/InsightLight.png" alt="Insights"></div>
+                <div class="dynamic-island"></div>
+                <div class="glare"></div>
+            </div>
+            <div class="label">Insights</div>
+        </div>
+
+        <!-- Screenshot 3: ActivityTrendsLight -->
+        <div class="phone-wrap">
+            <div class="phone">
+                <div class="screen"><img src="babydaily_ss/ActivityTrendsLight.png" alt="Activity Trends"></div>
+                <div class="dynamic-island"></div>
+                <div class="glare"></div>
+            </div>
+            <div class="label">Activity Trends</div>
+        </div>
+
+        <!-- Screenshot 4: GrowthTracking -->
+        <div class="phone-wrap">
+            <div class="phone">
+                <div class="screen"><img src="babydaily_ss/GrowthTracking.png" alt="Growth Tracking"></div>
+                <div class="dynamic-island"></div>
+                <div class="glare"></div>
+            </div>
+            <div class="label">Growth Tracking</div>
+        </div>
+
+        <!-- Screenshot 5: DailyPlanner -->
+        <div class="phone-wrap">
+            <div class="phone">
+                <div class="screen"><img src="babydaily_ss/DailyPlanner.png" alt="Daily Planner"></div>
+                <div class="dynamic-island"></div>
+                <div class="glare"></div>
+            </div>
+            <div class="label">Daily Planner</div>
+        </div>
+
+        <!-- Screenshot 6: LiveActivity -->
+        <div class="phone-wrap">
+            <div class="phone">
+                <div class="screen"><img src="babydaily_ss/LiveActivity.png" alt="Live Activity"></div>
+                <div class="dynamic-island"></div>
+                <div class="glare"></div>
+            </div>
+            <div class="label">Live Activity</div>
+        </div>
+
+        <!-- Screenshot 7: SmartWidget -->
+        <div class="phone-wrap">
+            <div class="phone">
+                <div class="screen"><img src="babydaily_ss/SmartWidget.png" alt="Smart Widget"></div>
+                <div class="dynamic-island"></div>
+                <div class="glare"></div>
+            </div>
+            <div class="label">Smart Widget</div>
+        </div>
+
+        <!-- Screenshot : PartnerSharing -->
+        <div class="phone-wrap">
+            <div class="phone">
+                <div class="screen"><img src="babydaily_ss/PartnerSharing.png" alt="Partner Sharing"></div>
+                <div class="dynamic-island"></div>
+                <div class="glare"></div>
+            </div>
+            <div class="label">Partner Sharing</div>
+        </div>
+
+        <!-- Screenshot 9: InsightDark -->
+        <div class="phone-wrap">
+            <div class="phone">
+                <div class="screen"><img src="babydaily_ss/InsightDark.png" alt="Insights (Dark)"></div>
+                <div class="dynamic-island"></div>
+                <div class="glare"></div>
+            </div>
+            <div class="label">Insights (Dark)</div>
+        </div>
+
+        <!-- Screenshot 10: HomePageDark -->
+        <div class="phone-wrap">
+            <div class="phone">
+                <div class="screen"><img src="babydaily_ss/HomePageDark.png" alt="Home Page (Dark)"></div>
+                <div class="dynamic-island"></div>
+                <div class="glare"></div>
+            </div>
+            <div class="label">Home Page (Dark)</div>
+        </div>
+    </div>
+</body>
+
+</html>

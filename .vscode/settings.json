@@ -7,10 +7,12 @@
     "MD031": false,
     "MD040": false,
     "MD026": false,
-    "MD029": false,
+    "MD029": false
   },
-  // exclude sql files from PROBLEMS view
   "problems.exclude": {
     "**/*.sql": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
   }
 }
