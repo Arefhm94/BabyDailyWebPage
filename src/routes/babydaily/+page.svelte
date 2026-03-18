@@ -4,7 +4,7 @@
   import Features from "$lib/components/site/Features.svelte";
   import { Button } from "$lib/components/ui/button";
   import { ArrowRight, Star } from "lucide-svelte";
-  import heroImage from "$lib/assets/babydaily_ss/HomePageLight.png";
+  import heroImage from "$lib/assets/babydaily_ss/HomePageDark.png";
 </script>
 
 <Hero imageSrc={heroImage} />
