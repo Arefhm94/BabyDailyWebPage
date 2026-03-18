@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Baby, Activity, Mail, Twitter, Github } from "lucide-svelte";
+  import { Baby, Activity, Mail } from "lucide-svelte";
   import { base } from "$app/paths";
 </script>
 
@@ -15,12 +15,6 @@
           Empowering parents with real-time baby tracking. A proud product of <span class="font-semibold text-foreground">OdesaHub</span>.
         </p>
         <div class="flex space-x-4 pt-2">
-          <a href="#" class="text-muted-foreground hover:text-primary transition-colors">
-            <Twitter class="h-5 w-5" />
-          </a>
-          <a href="#" class="text-muted-foreground hover:text-primary transition-colors">
-            <Github class="h-5 w-5" />
-          </a>
           <a href="mailto:hello@odesahub.com" class="text-muted-foreground hover:text-primary transition-colors">
             <Mail class="h-5 w-5" />
           </a>
@@ -41,8 +35,8 @@
         <ul class="space-y-3 text-sm">
           <li><span class="text-muted-foreground">OdesaHub</span></li>
           <li><a href="https://odesahub.com" class="text-muted-foreground hover:text-primary transition-colors underline underline-offset-4">odesahub.com</a></li>
-          <li><a href="#" class="text-muted-foreground hover:text-primary transition-colors">About</a></li>
-          <li><a href="#" class="text-muted-foreground hover:text-primary transition-colors">Contact</a></li>
+          <li><a href="{base}/#about" class="text-muted-foreground hover:text-primary transition-colors">About</a></li>
+          <li><a href="mailto:hello@odesahub.com" class="text-muted-foreground hover:text-primary transition-colors">Contact</a></li>
         </ul>
       </div>
     </div>

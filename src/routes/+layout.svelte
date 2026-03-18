@@ -1,6 +1,5 @@
 <script lang="ts">
   import './layout.css';
-  import favicon from '$lib/assets/favicon.svg';
   import Header from '$lib/components/site/Header.svelte';
   import Footer from '$lib/components/site/Footer.svelte';
 
@@ -8,7 +7,6 @@
 </script>
 
 <svelte:head>
-  <link rel="icon" href={favicon} />
   <title>BabyDaily | Baby Tracker by OdesaHub</title>
   <meta name="description" content="A fast, native baby tracker for iOS. Log feedings, diapers, and sleep right from your home screen. Proudly made by OdesaHub." />
 </svelte:head>

@@ -39,7 +39,7 @@
       </div>
       
       <div class="flex-1 relative animate-in fade-in zoom-in duration-1000 delay-300">
-        <div class="relative z-10 w-full max-w-[450px] mx-auto perspective-1000 rotate-y-[-10deg] rotate-x-[5deg] hover:rotate-0 transition-all duration-700 ease-out">
+        <div class="relative z-10 w-full max-w-[380px] mx-auto perspective-1000 rotate-y-[-10deg] rotate-x-[5deg] hover:rotate-0 transition-all duration-700 ease-out">
           {#if imageSrc}
             <div class="relative rounded-[2.5rem] overflow-hidden border-[12px] border-slate-900 shadow-2xl bg-slate-900">
               <img 
