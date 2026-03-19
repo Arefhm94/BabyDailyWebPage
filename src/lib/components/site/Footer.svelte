@@ -12,10 +12,10 @@
           <span class="font-bold text-xl">BabyDaily</span>
         </div>
         <p class="text-muted-foreground text-sm max-w-xs">
-          Empowering parents with real-time baby tracking. A proud product of <span class="font-semibold text-foreground">OdesaHub</span>.
+          Empowering parents with real-time baby tracking. A proud product of <span class="font-semibold text-foreground">OrdesaHub</span>.
         </p>
         <div class="flex space-x-4 pt-2">
-          <a href="mailto:hello@odesahub.com" class="text-muted-foreground hover:text-primary transition-colors">
+          <a href="mailto:hello@ordesahub.com" class="text-muted-foreground hover:text-primary transition-colors">
             <Mail class="h-5 w-5" />
           </a>
         </div>
@@ -33,10 +33,10 @@
       <div>
         <h3 class="font-bold mb-4 text-sm uppercase tracking-wider">Company</h3>
         <ul class="space-y-3 text-sm">
-          <li><span class="text-muted-foreground">OdesaHub</span></li>
-          <li><a href="https://odesahub.com" class="text-muted-foreground hover:text-primary transition-colors underline underline-offset-4">odesahub.com</a></li>
+          <li><span class="text-muted-foreground">OrdesaHub</span></li>
+          <li><a href="https://ordesahub.com" class="text-muted-foreground hover:text-primary transition-colors underline underline-offset-4">ordesahub.com</a></li>
           <li><a href="{base}/#about" class="text-muted-foreground hover:text-primary transition-colors">About</a></li>
-          <li><a href="mailto:hello@odesahub.com" class="text-muted-foreground hover:text-primary transition-colors">Contact</a></li>
+          <li><a href="mailto:hello@ordesahub.com" class="text-muted-foreground hover:text-primary transition-colors">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -44,7 +44,7 @@
     <div class="mt-12 pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
       <div class="flex items-center">
         <Activity class="h-3 w-3 mr-1" />
-        <span>&copy; 2026 OdesaHub. All rights reserved.</span>
+        <span>&copy; 2026 OrdesaHub. All rights reserved.</span>
       </div>
       <div class="flex space-x-6">
         <a href="{base}/babydaily/privacy" class="hover:text-primary transition-colors">Privacy</a>

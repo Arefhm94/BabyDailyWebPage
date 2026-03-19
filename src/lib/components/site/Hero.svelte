@@ -16,7 +16,7 @@
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider animate-in fade-in slide-in-from-bottom-3 duration-1000">
           <span>New</span>
           <span class="w-1 h-1 rounded-full bg-primary"></span>
-          <span>By OdesaHub</span>
+          <span>By OrdesaHub</span>
         </div>
         
         <h1 class="text-5xl lg:text-7xl font-extrabold tracking-tight text-foreground leading-[1.1] animate-in fade-in slide-in-from-bottom-5 duration-1000 delay-200">

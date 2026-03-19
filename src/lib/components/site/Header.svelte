@@ -11,7 +11,7 @@
         <div class="bg-foreground p-1 rounded-lg transition-transform group-hover:scale-110">
           <Activity class="h-5 w-5 text-background" />
         </div>
-        <span class="inline-block font-extrabold text-xl tracking-tighter">OdesaHub</span>
+        <span class="inline-block font-extrabold text-xl tracking-tighter">OrdesaHub</span>
       </a>
       
       <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">

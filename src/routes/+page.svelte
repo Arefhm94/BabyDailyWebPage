@@ -17,7 +17,7 @@
         Native apps. <span class="bg-clip-text text-transparent bg-gradient-to-r from-white to-white/40">Refined.</span>
       </h1>
       <p class="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-400">
-        OdesaHub specializes in high-performance, beautiful, and intuitive native applications.
+        OrdesaHub specializes in high-performance, beautiful, and intuitive native applications.
       </p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6 animate-in fade-in slide-in-from-bottom-10 duration-1000 delay-600">
         <Button size="lg" class="rounded-full px-10 h-16 text-lg font-bold bg-white/10 text-white border border-white/20 hover:bg-white/20 transition-all backdrop-blur-sm">
