@@ -11,7 +11,7 @@
   <div class="container mx-auto px-4 max-w-4xl">
     <div class="space-y-4 mb-12">
       <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">Privacy Policy</h1>
-      <p class="text-muted-foreground italic">Effective Date: March 29, 2026 &nbsp;·&nbsp; Last Updated: March 29, 2026</p>
+      <p class="text-muted-foreground italic">Effective Date: March 29, 2026 &nbsp;·&nbsp; Last Updated: April 4, 2026</p>
     </div>
 
     <div class="space-y-12 bg-background border rounded-3xl p-8 md:p-12 shadow-sm">
@@ -40,6 +40,7 @@
           <li><strong>Growth measurements:</strong> Weight, height, and head circumference data you enter manually.</li>
           <li><strong>Planner events:</strong> Scheduled events and reminders you create within the App.</li>
           <li><strong>Profile photo:</strong> An optional photo you choose to upload for your baby's profile.</li>
+          <li><strong>Smart Capture voice and text input:</strong> When you use the Smart Capture feature, audio you speak is transcribed on your device and that transcribed text may be sent to third-party AI services (Google Gemini API or Groq API) to detect and parse activities. This data is not stored by us or by those providers beyond the scope of processing your immediate request.</li>
         </ul>
 
         <h3 class="font-semibold text-lg pt-2">1.2 Information Collected Automatically</h3>
@@ -74,6 +75,18 @@
           <li><strong>Ensure security</strong> — detect and prevent fraudulent activity and unauthorized access.</li>
           <li><strong>Respond to support requests</strong> — use your contact information to reply to questions or bug reports.</li>
         </ul>
+
+        <h3 class="font-semibold text-lg pt-2">2.1 AI-Powered Smart Capture</h3>
+        <p class="text-muted-foreground leading-relaxed">
+          The Smart Capture feature lets you log activities by speaking or typing naturally. When this feature is used:
+        </p>
+        <ul class="space-y-3 list-disc pl-6 text-muted-foreground leading-relaxed">
+          <li>Audio is transcribed <strong>on your device</strong> using Apple's on-device speech recognition. The raw audio is never transmitted.</li>
+          <li>The resulting transcribed text is sent to one of two third-party large language model (LLM) APIs — <strong>Google Gemini API</strong> or <strong>Groq API</strong> — to detect and structure baby care activities from your natural language input.</li>
+          <li>These API calls do not include any personally identifiable information other than the text you spoke. Your account identity is not disclosed to the AI providers.</li>
+          <li>Transmitted text is processed transiently and is <strong>not stored</strong> by us or by the AI providers for training or any other purpose beyond the immediate API response.</li>
+          <li>You can opt out of Smart Capture entirely by simply not using the feature. Manual log entry remains available at all times.</li>
+        </ul>
       </section>
 
       <!-- Section 3 -->
@@ -94,7 +107,8 @@
       <section class="space-y-4">
         <h2 class="text-2xl font-bold border-b pb-2">4. How We Share Your Information</h2>
         <p class="font-semibold text-foreground">We do not, and will never, sell your personal data or your baby's data to advertisers, data brokers, or any other third parties.</p>
-        <p class="text-muted-foreground">We share limited data only with the following trusted providers:</p>
+        <p class="font-semibold text-foreground"><strong>App Tracking Transparency:</strong> The App does not "track" you. We do not collect or share any data that links user or device data from our App with user or device data from other companies' apps, websites, or offline properties for targeted advertising or advertising measurement purposes.</p>
+        <p class="text-muted-foreground">We share limited data only with the following trusted providers to perform necessary app functions:</p>
         <div class="overflow-x-auto">
           <table class="w-full text-sm text-muted-foreground border rounded-xl overflow-hidden">
             <thead class="bg-muted/50 text-foreground font-semibold">
@@ -126,6 +140,16 @@
                 <td class="p-3">Email, name (sign-in only)</td>
               </tr>
               <tr class="border-t">
+                <td class="p-3">Google Gemini API</td>
+                <td class="p-3">AI-powered Smart Capture activity detection</td>
+                <td class="p-3">Transcribed text only — not stored, not linked to your identity</td>
+              </tr>
+              <tr class="border-t bg-muted/20">
+                <td class="p-3">Groq API</td>
+                <td class="p-3">AI-powered Smart Capture (fallback model)</td>
+                <td class="p-3">Transcribed text only — not stored, not linked to your identity</td>
+              </tr>
+              <tr class="border-t">
                 <td class="p-3">Law enforcement</td>
                 <td class="p-3">Legal obligation</td>
                 <td class="p-3">Only if required by valid legal process</td>
@@ -138,11 +162,12 @@
       <!-- Section 5 -->
       <section class="space-y-4">
         <h2 class="text-2xl font-bold border-b pb-2">5. Data Retention</h2>
+        <p class="text-muted-foreground leading-relaxed">We retain your associated device, profile, and activity data only for as long as it is necessary to provide the services to you.</p>
         <ul class="space-y-3 list-disc pl-6 text-muted-foreground leading-relaxed">
           <li><strong>Active account:</strong> We retain your data for as long as your account is active.</li>
-          <li><strong>Account deletion:</strong> When you delete your account (Settings → Account → Delete Account), all associated data is permanently deleted from our servers within 30 days.</li>
+          <li><strong>Account deletion:</strong> When you delete your account (Settings → Account → Delete Account), all associated data is immediately queued for permanent deletion from our servers and will be fully erased within 30 days. Actionable backups natively expire and are wiped shortly thereafter.</li>
           <li><strong>Local cache:</strong> The App stores a local cache on your device. This is cleared when you delete the App or log out.</li>
-          <li><strong>Anonymized analytics:</strong> Aggregated, anonymized statistics that cannot be linked back to you may be retained indefinitely for product improvement.</li>
+          <li><strong>Anonymized analytics:</strong> Aggregated, anonymized statistics that cannot be linked back to you or your device may be retained indefinitely for product improvement.</li>
         </ul>
       </section>
 
@@ -183,6 +208,8 @@
           <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Google Privacy Policy</a></li>
           <li><a href="https://www.apple.com/legal/privacy" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Apple Privacy Policy</a></li>
           <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">RevenueCat Privacy Policy</a></li>
+          <li><a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Google Gemini API Terms &amp; Privacy</a></li>
+          <li><a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Groq Privacy Policy</a></li>
         </ul>
       </section>
 

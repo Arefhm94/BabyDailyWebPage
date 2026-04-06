@@ -11,7 +11,7 @@
   <div class="container mx-auto px-4 max-w-4xl">
     <div class="space-y-4 mb-12">
       <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">Terms of Use</h1>
-      <p class="text-muted-foreground italic">Effective Date: March 29, 2026 &nbsp;·&nbsp; Last Updated: March 29, 2026</p>
+      <p class="text-muted-foreground italic">Effective Date: March 29, 2026 &nbsp;·&nbsp; Last Updated: April 4, 2026</p>
     </div>
 
     <div class="space-y-12 bg-background border rounded-3xl p-8 md:p-12 shadow-sm">
@@ -27,12 +27,10 @@
         </p>
       </div>
 
-      <!-- Section 1 -->
       <section class="space-y-4">
         <h2 class="text-2xl font-bold border-b pb-2">1. Acceptance of Terms</h2>
         <p class="text-muted-foreground leading-relaxed">By creating an account or using any part of the App, you confirm that:</p>
         <ul class="space-y-3 list-disc pl-6 text-muted-foreground leading-relaxed">
-          <li>You are at least <strong>18 years of age</strong> (or the age of majority in your jurisdiction);</li>
           <li>You have the legal authority to enter into this agreement; and</li>
           <li>You will use the App only for its intended purpose of tracking infant care activities for infants under your care or guardianship.</li>
         </ul>
@@ -48,6 +46,7 @@
           <li>Synchronize activity data in real time with an invited co-parent or caregiver;</li>
           <li>View analytics, trend charts, and pattern-based predictions about infant routines;</li>
           <li>Schedule and manage planner events and reminders.</li>
+          <li>Use <strong>Smart Capture</strong>, an AI-powered voice-to-log feature that transcribes your speech on-device and sends the resulting text to third-party large language model (LLM) APIs (Google Gemini API and Groq API) to detect and log activities automatically. By using Smart Capture you acknowledge that your transcribed input will be processed by these third-party AI services in accordance with their respective terms and privacy policies.</li>
         </ul>
         <p class="text-muted-foreground leading-relaxed">Certain features are available only with a <strong>BabyDaily Premium</strong> subscription. We reserve the right to modify, add, or remove features at any time with reasonable notice.</p>
       </section>
@@ -85,21 +84,24 @@
         </h2>
 
         <h3 class="font-semibold">5.1 Subscription Plans</h3>
-        <p class="text-muted-foreground leading-relaxed">BabyDaily Premium is offered as an auto-renewing subscription available for purchase through Apple's App Store. Current pricing and billing periods are displayed on the in-app paywall screen prior to purchase.</p>
+        <p class="text-muted-foreground leading-relaxed">BabyDaily Premium is offered as an auto-renewing subscription (e.g., monthly or yearly) available for purchase through Apple's App Store and Google Play Store. The title of the subscription is "BabyDaily Premium", and the length of the subscription is the chosen billing period. Current pricing is displayed on the in-app paywall screen prior to purchase.</p>
 
-        <h3 class="font-semibold">5.2 Billing and Renewal</h3>
-        <p class="text-muted-foreground leading-relaxed">Your subscription will automatically renew at the end of each billing period unless you cancel at least <strong>24 hours before</strong> the end of the current period. Your Apple ID account will be charged for renewal within 24 hours before the end of the current period. Subscription management and cancellation are handled through your Apple ID account settings (Settings → Apple ID → Subscriptions).</p>
+        <h3 class="font-semibold">5.2 Payment and Auto-Renewal</h3>
+        <p class="text-muted-foreground leading-relaxed">Payment will be charged to your Apple ID or Google Play account at the confirmation of purchase. Your subscription <strong>automatically renews</strong> unless auto-renew is turned off at least <strong>24 hours before</strong> the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period, and the cost of the renewal will be identified.</p>
 
-        <h3 class="font-semibold">5.3 Free Trials</h3>
-        <p class="text-muted-foreground leading-relaxed">If a free trial is offered, you will not be charged during the trial period. At the end of the trial, your subscription will automatically renew at the then-current price unless cancelled before the trial ends.</p>
+        <h3 class="font-semibold">5.3 Managing Your Subscription</h3>
+        <p class="text-muted-foreground leading-relaxed">Subscriptions may be managed by the user. Auto-renewal may be turned off by going to your Account Settings (e.g., Apple ID Settings or Google Play Subscriptions) on your device after purchase. We cannot cancel subscriptions on your behalf.</p>
 
-        <h3 class="font-semibold">5.4 Refunds</h3>
-        <p class="text-muted-foreground leading-relaxed">All purchases are processed by Apple. Refund requests must be submitted directly to Apple in accordance with Apple's refund policy. We are unable to issue refunds directly.</p>
+        <h3 class="font-semibold">5.4 Free Trials</h3>
+        <p class="text-muted-foreground leading-relaxed">If a free trial is offered, you will not be charged during the trial period. At the end of the trial, your subscription will automatically renew at the then-current price unless cancelled before the trial ends. Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that service, where applicable.</p>
 
-        <h3 class="font-semibold">5.5 Restore Purchases</h3>
-        <p class="text-muted-foreground leading-relaxed">If you reinstall the App or use it on a new device, tap <strong>Restore Purchases</strong> on the subscription screen to restore an active premium subscription purchased with your Apple ID.</p>
+        <h3 class="font-semibold">5.5 Refunds</h3>
+        <p class="text-muted-foreground leading-relaxed">All purchases are processed directly by Apple or Google. Refund requests must be submitted directly to the App Store or Google Play Store in accordance with their respective refund policies. We are unable to issue refunds directly.</p>
 
-        <h3 class="font-semibold">5.6 Price Changes</h3>
+        <h3 class="font-semibold">5.6 Restore Purchases</h3>
+        <p class="text-muted-foreground leading-relaxed">If you reinstall the App or use it on a new device, tap <strong>Restore Purchases</strong> on the subscription screen to restore an active premium subscription purchased with your account.</p>
+
+        <h3 class="font-semibold">5.7 Price Changes</h3>
         <p class="text-muted-foreground leading-relaxed">We reserve the right to change subscription pricing. You will be notified of any price changes before they take effect, and your subscription will continue at the current price until your next renewal date.</p>
       </section>
 
@@ -140,7 +142,7 @@
       <section class="space-y-4">
         <h2 class="text-2xl font-bold border-b pb-2">8. Third-Party Services</h2>
         <p class="text-muted-foreground leading-relaxed">
-          The App uses third-party services including Supabase, RevenueCat, Google, and Apple for authentication, data storage, and payment processing. Your use of those services is subject to their respective terms and privacy policies. We are not responsible for any third-party service's availability, accuracy, or actions.
+          The App uses third-party services including Supabase, RevenueCat, Google, Apple, Google Gemini API, and Groq API for authentication, data storage, payment processing, and AI-powered features. Your use of those services is subject to their respective terms and privacy policies. We are not responsible for any third-party service's availability, accuracy, or actions.
         </p>
       </section>
 

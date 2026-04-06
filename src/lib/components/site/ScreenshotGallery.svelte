@@ -1,26 +1,26 @@
 <script lang="ts">
-  import ss1 from '$lib/assets/babydaily_ss/HomePageLight.png';
-  import ss2 from '$lib/assets/babydaily_ss/InsightLight.png';
-  import ss3 from '$lib/assets/babydaily_ss/ActivityTrendsLight.png';
-  import ss4 from '$lib/assets/babydaily_ss/GrowthTracking.png';
-  import ss5 from '$lib/assets/babydaily_ss/DailyPlanner.png';
-  import ss6 from '$lib/assets/babydaily_ss/LiveActivity.png';
-  import ss7 from '$lib/assets/babydaily_ss/PartnerSharing.png';
-  import ss8 from '$lib/assets/babydaily_ss/SmartWidget.png';
-  import ss9 from '$lib/assets/babydaily_ss/InsightDark.png';
-  import ss10 from '$lib/assets/babydaily_ss/HomePageDark.png';
+  import ss1 from '$lib/assets/babydaily_ss/home_light.png';
+  import ss2 from '$lib/assets/babydaily_ss/activities_light.png';
+  import ss3 from '$lib/assets/babydaily_ss/trends_light.png';
+  import ss4 from '$lib/assets/babydaily_ss/growth_light.png';
+  import ss5 from '$lib/assets/babydaily_ss/calendar_light.png';
+  import ss6 from '$lib/assets/babydaily_ss/live_activity_light.png';
+  import ss7 from '$lib/assets/babydaily_ss/setting_parent_light.png';
+  import ss8 from '$lib/assets/babydaily_ss/ios_widget_light.png';
+  import ss9 from '$lib/assets/babydaily_ss/smart_capture_light.png';
+  import ss10 from '$lib/assets/babydaily_ss/home_dark.png';
 
   const screenshots = [
     { src: ss1, label: 'Home Page' },
-    { src: ss2, label: 'Insights' },
-    { src: ss3, label: 'Activity Trends' },
+    { src: ss9, label: 'Smart Capture' },
+    { src: ss2, label: 'Activity Logs' },
+    { src: ss3, label: 'Trend Charts' },
     { src: ss4, label: 'Growth Tracking' },
-    { src: ss5, label: 'Daily Planner' },
-    { src: ss6, label: 'Live Activity' },
-    { src: ss8, label: 'Smart Widget' },
-    { src: ss7, label: 'Partner Sharing' },
-    { src: ss9, label: 'Insights (Dark)' },
-    { src: ss10, label: 'Home Page (Dark)' }
+    { src: ss5, label: 'Calendar' },
+    { src: ss6, label: 'Live Activities' },
+    { src: ss8, label: 'Lock Screen Widgets' },
+    { src: ss7, label: 'Partner Sync' },
+    { src: ss10, label: 'Dark Mode' }
   ];
 
   function dragScroll(node: HTMLElement) {

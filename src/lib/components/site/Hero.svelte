@@ -29,7 +29,7 @@
         </h1>
 
         <p class="text-lg lg:text-xl text-muted-foreground leading-relaxed animate-in fade-in slide-in-from-bottom-7 duration-700 delay-200">
-          A fast, native baby tracker built for iOS. Log feedings, diapers, and sleep directly from your home screen, and sync instantly with your partner.
+          A fast, beautiful baby tracker built for iOS. Log feedings, diapers, and sleep directly from your home screen, and sync instantly with your partner.
         </p>
 
         <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2 animate-in fade-in slide-in-from-bottom-9 duration-700 delay-300">
