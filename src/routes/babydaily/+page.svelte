@@ -3,7 +3,7 @@
   import ScreenshotGallery from "$lib/components/site/ScreenshotGallery.svelte";
   import Features from "$lib/components/site/Features.svelte";
   import { Button } from "$lib/components/ui/button";
-  import { Star, CheckCircle2 } from "lucide-svelte";
+  import { CheckCircle2 } from "lucide-svelte";
   import heroImage from "$lib/assets/babydaily_ss/home_dark.png";
   import smartCaptureImg from "$lib/assets/babydaily_ss/smart_capture_light.png";
   import liveActivityImg from "$lib/assets/babydaily_ss/live_activity_light.png";
@@ -122,30 +122,6 @@
 
 <Features />
 
-<!-- ─── Testimonial ──────────────────────────────────────────── -->
-<section class="py-24 bg-slate-900/10 relative">
-  <div class="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-white/5 to-transparent"></div>
-  <div class="container mx-auto px-4">
-    <div class="max-w-3xl mx-auto text-center space-y-8">
-      <div class="flex justify-center gap-1 text-yellow-400">
-        {#each Array(5) as _}
-          <Star class="h-5 w-5 fill-current" />
-        {/each}
-      </div>
-      <blockquote class="text-2xl md:text-3xl font-bold italic tracking-tight leading-snug">
-        "BabyDaily has transformed how we track our daughter's naps and feeds.
-        The widget is a game-changer!"
-      </blockquote>
-      <div class="flex flex-col items-center gap-1">
-        <div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary text-sm">
-          IR
-        </div>
-        <p class="font-semibold text-sm">Irene Rivera</p>
-        <p class="text-xs text-muted-foreground">New Mom &amp; App Enthusiast</p>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- ─── CTA ──────────────────────────────────────────────────── -->
 <section class="py-24 bg-primary text-primary-foreground">
