@@ -1,14 +1,14 @@
 <script lang="ts">
-  import ss1 from '$lib/assets/babydaily_ss/home_light.png';
-  import ss2 from '$lib/assets/babydaily_ss/activities_light.png';
-  import ss3 from '$lib/assets/babydaily_ss/trends_light.png';
-  import ss4 from '$lib/assets/babydaily_ss/growth_light.png';
-  import ss5 from '$lib/assets/babydaily_ss/calendar_light.png';
-  import ss6 from '$lib/assets/babydaily_ss/live_activity_light.png';
-  import ss7 from '$lib/assets/babydaily_ss/setting_parent_light.png';
-  import ss8 from '$lib/assets/babydaily_ss/ios_widget_light.png';
-  import ss9 from '$lib/assets/babydaily_ss/smart_capture_light.png';
-  import ss10 from '$lib/assets/babydaily_ss/home_dark.png';
+  import ss1 from '$lib/assets/kiko_ss/home_light.png';
+  import ss2 from '$lib/assets/kiko_ss/activities_light.png';
+  import ss3 from '$lib/assets/kiko_ss/trends_light.png';
+  import ss4 from '$lib/assets/kiko_ss/growth_light.png';
+  import ss5 from '$lib/assets/kiko_ss/calendar_light.png';
+  import ss6 from '$lib/assets/kiko_ss/live_activity_light.png';
+  import ss7 from '$lib/assets/kiko_ss/setting_parent_light.png';
+  import ss8 from '$lib/assets/kiko_ss/ios_widget_light.png';
+  import ss9 from '$lib/assets/kiko_ss/smart_capture_light.png';
+  import ss10 from '$lib/assets/kiko_ss/home_dark.png';
 
   const screenshots = [
     { src: ss1, label: 'Home Page' },
@@ -65,7 +65,7 @@
   <div class="absolute inset-0 bg-linear-to-b from-indigo-500/5 via-transparent to-indigo-500/5 opacity-50"></div>
   <div class="container mx-auto px-4 text-center mb-12 space-y-4">
     <h2 class="text-3xl md:text-5xl font-bold tracking-tight">App Interface</h2>
-    <p class="text-muted-foreground max-w-2xl mx-auto">Experience the beautiful and intuitive design of BabyDaily, crafted specifically for the modern parent.</p>
+    <p class="text-muted-foreground max-w-2xl mx-auto">Experience the beautiful and intuitive design of Kiko – Baby Tracker, crafted specifically for the modern parent.</p>
   </div>
 
   <div

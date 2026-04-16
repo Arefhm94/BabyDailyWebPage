@@ -9,7 +9,7 @@
       <div class="col-span-1 md:col-span-2 space-y-4">
         <div class="flex items-center space-x-2">
           <Baby class="h-6 w-6 text-primary" />
-          <span class="font-bold text-xl">BabyDaily</span>
+          <span class="font-bold text-xl">Kiko – Baby Tracker</span>
         </div>
         <p class="text-muted-foreground text-sm max-w-xs">
           Empowering parents with real-time baby tracking. A proud product of <span class="font-semibold text-foreground">OrdesaHub</span>.
@@ -26,8 +26,8 @@
         <ul class="space-y-3 text-sm">
           <li><a href="{base}/#features" class="text-muted-foreground hover:text-primary transition-colors">Features</a></li>
           <li><a href="{base}/#about" class="text-muted-foreground hover:text-primary transition-colors">About</a></li>
-          <li><a href="{base}/babydaily/privacy/" class="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a></li>
-          <li><a href="{base}/babydaily/terms/" class="text-muted-foreground hover:text-primary transition-colors">Terms of Use</a></li>
+          <li><a href="{base}/kiko/privacy/" class="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a></li>
+          <li><a href="{base}/kiko/terms/" class="text-muted-foreground hover:text-primary transition-colors">Terms of Use</a></li>
         </ul>
       </div>
       
@@ -48,8 +48,8 @@
         <span>&copy; 2026 OrdesaHub. All rights reserved.</span>
       </div>
       <div class="flex space-x-6">
-        <a href="{base}/babydaily/privacy/" class="hover:text-primary transition-colors">Privacy</a>
-        <a href="{base}/babydaily/terms/" class="hover:text-primary transition-colors">Terms</a>
+        <a href="{base}/kiko/privacy/" class="hover:text-primary transition-colors">Privacy</a>
+        <a href="{base}/kiko/terms/" class="hover:text-primary transition-colors">Terms</a>
       </div>
     </div>
   </div>

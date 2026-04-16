@@ -6,7 +6,7 @@
 
 <svelte:head>
   <title>OrdesaHub | Native Apps, Refined</title>
-  <meta name="description" content="OrdesaHub builds high-performance, beautiful native applications. Home of BabyDaily — the smartest baby tracker for iOS." />
+  <meta name="description" content="OrdesaHub builds high-performance, beautiful native applications. Home of Kiko – Baby Tracker — the smartest baby tracker for iOS." />
 </svelte:head>
 
 <div class="flex flex-col min-h-screen">
@@ -61,11 +61,11 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- BabyDaily Card -->
-        <a href="{base}/babydaily/" class="group block relative overflow-hidden rounded-3xl bg-card/50 border transition-all hover:shadow-2xl hover:-translate-y-2 duration-300">
+        <!-- Kiko Card -->
+        <a href="{base}/kiko/" class="group block relative overflow-hidden rounded-3xl bg-card/50 border transition-all hover:shadow-2xl hover:-translate-y-2 duration-300">
           <div class="aspect-video w-full bg-primary/10 flex items-center justify-center p-12 overflow-hidden relative">
-            <div class="bg-card rounded-3xl shadow-xl transition-transform group-hover:scale-110 duration-500 overflow-hidden">
-              <img src="{base}/icon.png" alt="BabyDaily App Icon" class="h-24 w-24 object-cover" />
+            <div class="bg-card rounded-3xl shadow-xl transition-transform group-hover:scale-110 duration-500 overflow-hidden flex items-center justify-center">
+              <img src="{base}/icon.png" alt="Kiko App Icon" class="h-20 w-20 object-contain" />
             </div>
             <div class="absolute top-10 right-10 bg-card p-3 rounded-xl shadow-lg animate-bounce" style="animation-duration:3s">
               <div class="h-2 w-12 bg-primary/20 rounded-full mb-2"></div>
@@ -85,7 +85,7 @@
               <ExternalLink class="h-5 w-5 text-slate-400 transition-colors group-hover:text-primary" />
             </div>
             <div>
-              <h3 class="text-2xl font-black tracking-tight">BabyDaily</h3>
+              <h3 class="text-2xl font-black tracking-tight">Kiko – Baby Tracker</h3>
               <p class="text-muted-foreground leading-relaxed mt-1">
                 The smartest, fastest baby tracker for iOS. Real-time syncing, home screen widgets, and beautiful insights.
               </p>

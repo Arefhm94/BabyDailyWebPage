@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Terms of Use | BabyDaily</title>
-  <meta name="description" content="BabyDaily Terms of Use." />
+  <title>Terms of Use | Kiko – Baby Tracker</title>
+  <meta name="description" content="Kiko – Baby Tracker Terms of Use." />
 </svelte:head>
 
 <section class="py-16 md:py-24 bg-background">
@@ -19,7 +19,7 @@
       <div class="p-6 rounded-2xl bg-primary/5 border border-primary/10 flex gap-4 items-start">
         <FileText class="h-6 w-6 text-primary shrink-0 mt-1" />
         <p class="text-sm leading-relaxed">
-          BabyDaily – Tracker &amp; Routine ("the App") applies the standard Apple Licensed Application End User License Agreement (EULA).
+          Kiko – Baby Tracker ("the App") applies the standard Apple Licensed Application End User License Agreement (EULA).
         </p>
       </div>
 

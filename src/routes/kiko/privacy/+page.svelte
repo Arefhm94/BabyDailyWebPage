@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Privacy Policy | BabyDaily</title>
-  <meta name="description" content="BabyDaily Privacy Policy. Learn how we collect, use, and protect your data." />
+  <title>Privacy Policy | Kiko – Baby Tracker</title>
+  <meta name="description" content="Kiko – Baby Tracker Privacy Policy. Learn how we collect, use, and protect your data." />
 </svelte:head>
 
 <section class="py-16 md:py-24 bg-background">
@@ -20,8 +20,8 @@
       <div class="p-6 rounded-2xl bg-primary/5 border border-primary/10 flex gap-4 items-start">
         <Shield class="h-6 w-6 text-primary shrink-0 mt-1" />
         <p class="text-sm leading-relaxed">
-          This Privacy Policy describes how BabyDaily ("we," "us," or "our") collects, uses, and
-          shares information about you when you use the BabyDaily – Tracker &amp; Routine mobile
+          This Privacy Policy describes how Kiko – Baby Tracker ("we," "us," or "our") collects, uses, and
+          shares information about you when you use the Kiko – Baby Tracker mobile
           application (the "App"). By using the App, you agree to the collection and use of
           information in accordance with this policy. We fully comply with the Apple App Store
           Guidelines, GDPR, and CCPA.

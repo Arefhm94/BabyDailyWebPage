@@ -15,9 +15,9 @@
       </a>
 
       <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
-        <a href="{base}/babydaily/" class="flex items-center gap-2 transition-colors hover:text-primary text-muted-foreground">
+        <a href="{base}/kiko/" class="flex items-center gap-2 transition-colors hover:text-primary text-muted-foreground">
           <Baby class="h-4 w-4" />
-          <span>BabyDaily</span>
+          <span>Kiko – Baby Tracker</span>
         </a>
         <a href="{base}/#about" class="transition-colors hover:text-primary text-muted-foreground">About</a>
         <a href="{base}/#portfolio" class="transition-colors hover:text-primary text-muted-foreground">Portfolio</a>

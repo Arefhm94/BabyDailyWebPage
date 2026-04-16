@@ -8,7 +8,7 @@
 
 <svelte:head>
   <title>OrdesaHub | Native Apps, Refined</title>
-  <meta name="description" content="OrdesaHub builds high-performance, beautiful native applications. Home of BabyDaily — the smartest baby tracker for iOS." />
+  <meta name="description" content="OrdesaHub builds high-performance, beautiful native applications. Home of Kiko – Baby Tracker — the smartest baby tracker for iOS." />
 </svelte:head>
 
 <div class="flex min-h-screen flex-col">
